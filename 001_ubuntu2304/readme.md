@@ -11,7 +11,7 @@ You will require:
 * USB Flash Drives: >= 8 GB Capacity
 * [Ubuntu 23.04 ISO](https://releases.ubuntu.com/lunar/)
 * [Rufus](https://rufus.ie/en/)
-* Latest BIOS Update ([Dell](https://www.dell.com/support/home/en-uk?app=drivers), [Lenovo](https://support.lenovo.com/gb/en/), [HP](https://support.hp.com/gb-en/drivers?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYeidxAKPNx_4lQafm2WA0P-c98deB6tE21oY43vOe4ENI_tScEBZgaAuFIEALw_wcB&gclsrc=aw.ds))
+* Latest UEFI Update ([Dell](https://www.dell.com/support/home/en-uk?app=drivers), [Lenovo](https://support.lenovo.com/gb/en/), [HP](https://support.hp.com/gb-en/drivers?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYeidxAKPNx_4lQafm2WA0P-c98deB6tE21oY43vOe4ENI_tScEBZgaAuFIEALw_wcB&gclsrc=aw.ds))
 
 Insert the USB Flash Drive. Launch Rufus:
 
@@ -49,7 +49,7 @@ Go to your OEMs Drivers and Downloads Page. Select your model:
 
 ![img_009](./images/img_009.png)
 
-Select the BIOS category:
+Select the BIOS/UEFI category:
 
 ![img_010](./images/img_010.png)
 
@@ -57,7 +57,7 @@ Select Download:
 
 ![img_011](./images/img_011.png)
 
-Copy the BIOS Update to your USB Flash Drive:
+Copy the UEFI Update to your USB Flash Drive:
 
 ![img_012](./images/img_012.png)
 
@@ -72,7 +72,7 @@ You will require:
 * 2 USB Flash Drives: >= 8 GB Capacity
 * [Ubuntu 23.04 ISO](https://releases.ubuntu.com/lunar/)
 * Make Startup Disk/Fedora Media Writer (Preinstalled)
-* Latest BIOS Update ([Dell](https://www.dell.com/support/home/en-uk?app=drivers), [Lenovo](https://support.lenovo.com/gb/en/), [HP](https://support.hp.com/gb-en/drivers?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYeidxAKPNx_4lQafm2WA0P-c98deB6tE21oY43vOe4ENI_tScEBZgaAuFIEALw_wcB&gclsrc=aw.ds))
+* Latest UEFI Update ([Dell](https://www.dell.com/support/home/en-uk?app=drivers), [Lenovo](https://support.lenovo.com/gb/en/), [HP](https://support.hp.com/gb-en/drivers?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYeidxAKPNx_4lQafm2WA0P-c98deB6tE21oY43vOe4ENI_tScEBZgaAuFIEALw_wcB&gclsrc=aw.ds))
   
 Select Startup Disc Creator:
 
@@ -98,17 +98,27 @@ When finished, Installtion Complete will display. Select Quit:
 
 ![img_019](./images/img_019.png)
 
-Your installation media is now ready. As the startup disc creates a single partition that is the size of the installation media, leaving the rest of the USB flash drive as unallocated space, you will need a seperate USB Flash Drive to copy the BIOS Update to.
+Your installation media is now ready. As the startup disc creates a single partition that is the size of the installation media, leaving the rest of the USB flash drive as unallocated space, you will need a seperate USB Flash Drive to copy the UEFI Update to.
 
-## Dell UEFI BIOS Setup
+## UEFI Setup
 
-A UEFI BIOS should be configured with Secure Boot. Unfortunately the Linux Kernel has no Intel RAID Driver and the SATA Operation should be configured to AHCI.
+The Unified Extensive Firmware Interface (UEFI) is as the name suggests, the firmware interface of your devices motherboard. This firmware is tied to the motherboard and does not change when an operating system is installed on a storage device suchas a NVMe SSD. 
 
-This will use a Dell XPS 13 9365 as an example. The BIOS screen will slightly differ from model to model and manufacturer to manufacturer.
+UEFI is essentially used to configure the firmware settings of the motherboard and the wider device. UEFI is used to select boot devices, perform a data wipe of internal drives and has a number of firmware related security technologies such as Secure Boot.
 
-For a Dell press ```F2``` while powering up to enter the UEFI BIOS Setup.
+Legacy computers manufactured pre-2012 had a small subset of the technologies available in UEFI and came with a Basic Input Output System (BIOS). 
 
-For a Lenovo press ```F1``` while powering up to enter the UEFI BIOS Setup.
+Despite the wider capabilities of UEFI, the term BIOS is generally used as a synonym to UEFI and computers manufactured pre-2012 are now said to have a Legacy BIOS. 
+
+The UEFI should be configured with Secure Boot for optimal Security and performance. 
+
+Unfortunately the Linux Kernel has no Intel RAID Driver and the SATA Operation should be configured to AHCI in order for the Linux OS to be able to access any internal drives such as a NVMe SSD.
+
+This will use a Dell XPS 13 9365 as an example. The UEFI screen will slightly differ from model to model and manufacturer to manufacturer.
+
+For a Dell press ```F2``` while powering up to enter the UEFI Setup.
+
+For a Lenovo press ```F1``` while powering up to enter the UEFI Setup.
 
 ![img_020](./images/img_020.png)
 
@@ -122,12 +132,12 @@ In the General Tab select System Information:
 Take note of the:
  
 * Product Name: XPS 13 9365
-* BIOS Version: 2.24.0
+* UEFI Version: 2.24.0
 * Manufacturer Date: October 2017; this system had a replacement motherboard so lists no manufacture date 
 * Processor: Intel i7-**7**V75 (7th Generation)
 * Memory: 8 GB
 * Video: Intel HD 615
-* Audio: Realtek aLC3271
+* Audio: Realtek ALC3271
 * Wi-Fi Device: Intel Wireless
 
 In the General Tab select Advanced Boot Options:
@@ -170,7 +180,7 @@ The default setting should be Auto. With this setting I often get a black screen
 
 ![img_037](./images/img_037.png)
 
-In past versions of Ubuntu the Wireless Card wouldn't be recognised when FastBoot was used. This seems to be fixed with a BIOS update/newer Linux Kernel. Previously the Wireless Card had to be Disabled after the Fast Boot Behaviour was set to thorough using the Wireless switch. Then the system had to be powered on and off. Finally enabling the Wireless Card has to be Enabled using the Wireless switch.
+In past versions of Ubuntu the Wireless Card wouldn't be recognised when FastBoot was used. This seems to be fixed with a UEFI update/newer Linux Kernel. Previously the Wireless Card had to be Disabled after the Fast Boot Behaviour was set to thorough using the Wireless switch. Then the system had to be powered on and off. Finally enabling the Wireless Card has to be Enabled using the Wireless switch.
 
 selecting the Wireless Tab, select Wireless Switch:
 
@@ -228,7 +238,7 @@ Select Apply, then OK:
 
 ![img_048](./images/img_048.png)
 
-Select Exit BIOS:
+Select Exit UEFI:
 
 ![img_049](./images/img_049.png)
 
@@ -250,15 +260,15 @@ You will be informed when it is finished:
 
 Data Wipe typically takes a couple of minutes for a SSD but can take several hours for a HDD.
 
-## BIOS Update from USB
+## UEFI Update from USB
 
-For best results, ensure your system has the latest BIOS Update installed before installing Ubuntu as many boot issues are resolved using the BIOS Update.
+For best results, ensure your system has the latest UEFI Update installed before installing Ubuntu as many boot issues are resolved using the UEFI Update.
 
-The Dell BIOS can be updated from USB. To access the Dell or Lenovo Boot Menu press ```F12``` during powerup:
+The Dell UEFI can be updated from USB. To access the Dell or Lenovo Boot Menu press ```F12``` during powerup:
 
 ![img_054](./images/img_054.png)
 
-Select BIOS Update:
+Select UEFI Update:
 
 ![img_055](./images/img_055.png)
 
@@ -270,7 +280,7 @@ Select the USB Flash Drive:
 
 ![img_057](./images/img_057.png)
 
-Scroll down and select the BIOS Update:
+Scroll down and select the UEFI Update:
 
 ![img_058](./images/img_058.png)
 
@@ -278,7 +288,7 @@ Then select Submit:
 
 ![img_059](./images/img_059.png)
 
-Then select Update BIOS:
+Then select Update UEFI:
 
 ![img_060](./images/img_060.png)
 
@@ -286,7 +296,7 @@ Select Confirm Update:
 
 ![img_061](./images/img_061.png)
 
-The BIOS will now update:
+The UEFI will now update:
 
 ![img_062](./images/img_062.png)
 
