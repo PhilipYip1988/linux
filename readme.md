@@ -2,8 +2,8 @@
 
 This guide will look at installation of the following Linux Distributions on a Dell XPS 13 2 in 1 Touchscreen Convertible Device:
 
-* [Ubuntu 23.04](https://github.com/PhilipYip1988/linux/tree/main/001_ubuntu2304)
-* Fedora 38
+* [Ubuntu 23.04](https://github.com/PhilipYip1988/linux/tree/main/001_ubuntu2304#readme)
+* (Fedora 38](https://github.com/PhilipYip1988/linux/tree/main/002_fedora38#readme)
 
 New users get swamped when attempting to select a Linux Distribution so, some details below will be given outlining the differences.
 
