@@ -829,7 +829,6 @@ Enabling High DPI scaling makes it possible to work with both screens:
 ![img_225](./images/img_225.png)
 ![img_226](./images/img_226.png)
 ![img_227](./images/img_227.png)
-![img_228](./images/img_228.png)
 
 GNOME Window snapping across multiple monitors is limited with ```⊞```+```→``` or ```⊞```+```←``` or ```⊞```+```↑``` not being able to move a window from one monitor to another.
 
