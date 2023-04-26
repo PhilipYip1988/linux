@@ -503,7 +503,7 @@ On a touchpad 3 finger gestures up or down can be used to open Activities and th
 
 ![img_114](./images/img_114.png)
 
-3 finger gestures elft or right can be sued to switch workspaces:
+3 finger gestures left or right can be used to switch workspaces:
 
 ![img_115](./images/img_115.png)
 
