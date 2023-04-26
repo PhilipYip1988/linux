@@ -98,7 +98,11 @@ Fedora Media Writer creates a single partition on the Bootable USB that is the s
 
 ![img_020](./images/img_020.png)
 
-Changing this will stop the USB Flash Drive from booting and therefore you cannot copyother files to it. The UEFI Update should be copied to another USB Flash Drive.
+Changing this will stop the USB Flash Drive from booting and therefore you cannot copy other files to it. The UEFI Update should be copied to another USB Flash Drive.
+
+![img_021](./images/img_021.png)
+
+![img_022](./images/img_022.png)
 
 ## Unified Extensive Firmware Interface (UEFI) Setup
 
@@ -118,13 +122,9 @@ For a Dell press F2 while powering up to enter the UEFI Setup.
 
 For a Lenovo press F1 while powering up to enter the UEFI Setup.
 
-![img_021](./images/img_021.png)
+![img_023](./images/img_023.png)
 
 In the General Tab select System Information:
-
-![img_022](./images/img_022.png)
-
-![img_023](./images/img_023.png)
 
 ![img_024](./images/img_024.png)
 
