@@ -517,13 +517,52 @@ The tour is now over:
 
 ![img_119](./images/img_119.png)
 
-Add 1-3 finger press examples
+As mentioned earlier the touchpad works by pressure opposed to area.
 
-
-
-
-
-
-
+1 finger press = left click:
 
 ![img_120](./images/img_120.png)
+
+2 finger press = right click:
+
+![img_121](./images/img_121.png)
+
+3 finger press = middle click (copy and paste):
+
+![img_122](./images/img_122.png)
+
+![img_123](./images/img_123.png)
+
+![img_124](./images/img_124.png)
+
+![img_125](./images/img_125.png)
+
+By default auto-rotation isn't enabled when the keyboard is out and the convertible is in laptop mode:
+
+![img_126](./images/img_126.png)
+
+Notice the lack of the auto-rotate icon in the power menu:
+
+![img_127](./images/img_127.png)
+
+When put on its side the screen doesn't rotate:
+
+![img_128](./images/img_128.png)
+
+When the keyboard is folded back, the convertible is in tablet mode and the auto-rotate icon displays:
+
+![img_129](./images/img_129.png)
+
+The screen auto-rotates by default. This inverts the screen when the convertible is in tent mode:
+
+![img_130](./images/img_130.png)
+
+Unfortunately the auto-rotation is a bit slow. If converted back into a laptop too quickly:
+
+![img_131](./images/img_131.png)
+![img_132](./images/img_132.png)
+
+Because the screen-rotation gets disabled, the system is in a bit of an unusable sdtate meaning it needs to be converted into a laptop, rotated and then converted back into a laptop:
+
+![img_133](./images/img_133.png)
+
