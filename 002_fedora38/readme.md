@@ -688,48 +688,146 @@ This can be changed to Area for a more traditional behaviour:
 
 ![img_164](./images/img_164.png)
 
-
+GNOME Extensions can be installed. A notice states that extensions can cause instability and performance issues with the GNOME shell baring in mind that most extensions are unofficial and not tested directly by RedHat or GNOME developers:
 
 ![img_165](./images/img_165.png)
+
+In the browse tab, extensions will be lsited by popularity. An extension can also be searched for:
+
 ![img_166](./images/img_166.png)
+
+Dash to Dock is a popular GNOME extension. A modified version of this extension is installed by Canonical on Ubuntu for example. It can be Installed by selecting Install:
+
 ![img_167](./images/img_167.png)
+
+Then install again:
+
 ![img_168](./images/img_168.png)
+
+The dock now displays:
+
 ![img_169](./images/img_169.png)
+
+On the installed tab, the extensions settings can be modified:
+
 ![img_170](./images/img_170.png)
+
+The dock is by default shown at the bottom:
+
 ![img_171](./images/img_171.png)
+
+It can be changed to a panel which extends to the edges of the screen:
+
 ![img_172](./images/img_172.png)
+
+It can be moved to the left:
+
 ![img_173](./images/img_173.png)
+
+Autohiding is enabled by default, this can be disabled:
+
 ![img_174](./images/img_174.png)
+
+Now the panel always shows:
+
 ![img_175](./images/img_175.png)
+
+The minimise button minimises open application windows to the panel:
+
 ![img_176](./images/img_176.png)
+
 ![img_177](./images/img_177.png)
+
+These can be maximied by selecting the respective icon on the panel:
+
 ![img_178](./images/img_178.png)
+
+If autohiding is enabled:
+
 ![img_179](./images/img_179.png)
+
+The panel will autohide when a window is dragged above it or maximised:
+
 ![img_180](./images/img_180.png)
+
 ![img_181](./images/img_181.png)
+
 ![img_182](./images/img_182.png)
+
 ![img_183](./images/img_183.png)
+
+Canonical have the following settings enabled by default in Ubuntu; Left, Autohide Disabled and Panel Mode:
+
 ![img_184](./images/img_184.png)
+
+Another common configuration is the bottom:
+
 ![img_185](./images/img_185.png)
+
+In the launcher tab, the All Apps Buttonn can be moved to the start of the Panel:
+
 ![img_186](./images/img_186.png)
+
 ![img_187](./images/img_187.png)
+
+The behaviour and the appearance tab can be used for additional modifications:
+
 ![img_188](./images/img_188.png)
+
 ![img_189](./images/img_189.png)
+
 ![img_190](./images/img_190.png)
+
 ![img_191](./images/img_191.png)
+
 ![img_192](./images/img_192.png)
+
 ![img_193](./images/img_193.png)
+
+Another common extension is Desktop Icons NG. This is once again preisntalled by Canonocal in Ubuntu:
+
 ![img_194](./images/img_194.png)
+
+Once installed, in the install tab, the Desktop icons settings can be changed:
+
 ![img_195](./images/img_195.png)
+
+For example optionally moving them to the top left corner and disabling some system icons:
+
 ![img_196](./images/img_196.png)
+
+If the mouse is moved to the top left hot corner, the Activities display. Canonical disable this behaviour by default leaving Activities only accessible by left clicking the button:
+
 ![img_197](./images/img_197.png)
+
+This can be Disabled in the Multitasking tab in Settings:
+
 ![img_198](./images/img_198.png)
+
 ![img_199](./images/img_199.png)
+
+There are numerous problems with the Screen Keyboard. It doesn't auto-populate in many applications in response to pressing into a touch input field. Many applications are based on the open source browser Chromium but Chromium only supports the text input version 1 and not version 3 which is used by the GNOME keyboard, see [Issue 1039161: Ozone-wayland: support text_input_v3 protocol](https://bugs.chromium.org/p/chromium/issues/detail?id=1039161). GNOME Developers are waiting on Chromium developers to fix this before further improving the touch keyboard. In the meantime the screen keyboard is subpar and its limitations can be partially addressed using the improved OSK extension:
+
 ![img_200](./images/img_200.png)
+
+Once installed, this extensions settings can be configured:
+
 ![img_201](./images/img_201.png)
+
+It is recommended to enable Force touch-input and show statusbar icon:
+
 ![img_202](./images/img_202.png)
+
+When pressing into a text input field in Chromium, the Screen Keyboard does not auto-populate:
+
 ![img_203](./images/img_203.png)
+
+But can be manually invoked using the touchscreen keyboard button:
+
 ![img_204](./images/img_204.png)
+
+This button should work even if the screen keyboard is disabled in the Access
+
 ![img_205](./images/img_205.png)
 ![img_206](./images/img_206.png)
 ![img_207](./images/img_207.png)
