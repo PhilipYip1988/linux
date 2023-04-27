@@ -784,7 +784,7 @@ The behaviour and the appearance tab can be used for additional modifications:
 
 ![img_193](./images/img_193.png)
 
-Another common extension is Desktop Icons NG. This is once again preisntalled by Canonocal in Ubuntu:
+Another common extension is Desktop Icons NG. This is once again prisntalled by Canonocal in Ubuntu:
 
 ![img_194](./images/img_194.png)
 
@@ -950,3 +950,7 @@ Paste special options have also been added making it easier to transpose data wh
 ![img_246](./images/img_246.png)
 
 ![img_247](./images/img_247.png)
+
+I've not came across good extensions that replicate Snap Layouts. GNOME Window snapping across multiple monitors is limited with ⊞+→ or ⊞+← or ⊞+↑ not being able to move a window from one monitor to another. The gsnap and wintile extensions are supposed to enable this behaviour but have not yet been updated to support GNOME 44 so I've not tested these. 
+
+I've also not came across an extension that replicates the Emoji Panel on Windows. Particularly the component with Mathematical Symbols and Greek letters as I rarely use the actual emojis.
