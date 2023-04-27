@@ -80,7 +80,7 @@ Select the Fedora 38 ISO (it should be in your Downloads folder and not on the U
 
 ![img_015](./images/img_015.png)
 
-Seelct the USB Flash Drive and select Write:
+Select the USB Flash Drive and select Write:
 
 ![img_016](./images/img_016.png)
 
