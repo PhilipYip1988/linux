@@ -828,48 +828,125 @@ This button should work even if the screen keyboard is disabled in the Accessibi
 
 ![img_204](./images/img_204.png)
 
-The Extension Show Deskt
+The Extension Show Desktop can be used to minimise all windows to show the desktop:
 
 ![img_205](./images/img_205.png)
+
+Unfortunately the desktop icon only seems to work with a mouse click and not a touch press:
+
 ![img_206](./images/img_206.png)
+
+The clipboard history extension is used to include a paste clipboard:
+
 ![img_207](./images/img_207.png)
+
 ![img_208](./images/img_208.png)
+
 ![img_209](./images/img_209.png)
+
+Items can be pinned to it:
+
 ![img_210](./images/img_210.png)
+
 ![img_211](./images/img_211.png)
+
+The Screen Rotate Extension can be used to invoke a faster screen rotate that occurs when the convertible is in laptop mode:
+
 ![img_212](./images/img_212.png)
+
+## GNOME Screen Capture
+
+If the prt sc button is pressed, GNOME screen capture launches:
+
 ![img_213](./images/img_213.png)
+
+It can be used to make a selection, capture the screen or to capture a window:
+
 ![img_214](./images/img_214.png)
 ![img_215](./images/img_215.png)
 ![img_216](./images/img_216.png)
 ![img_217](./images/img_217.png)
 ![img_218](./images/img_218.png)
 ![img_219](./images/img_219.png)
+
+A window can also be captured using its right click context menu (right click the titlebar near the minimise button or where the minimise button should be if not enabled in GNOME tweaks):
+
 ![img_220](./images/img_220.png)
+
 ![img_221](./images/img_221.png)
+
 ![img_222](./images/img_222.png)
+
+There is a preinstalled image viewer:
+
 ![img_223](./images/img_223.png)
 ![img_224](./images/img_224.png)
 ![img_225](./images/img_225.png)
+
+Unfortunately very wide margins are added when a window is selected:
+
 ![img_226](./images/img_226.png)
 ![img_227](./images/img_227.png)
 ![img_228](./images/img_228.png)
+
+The right click context menu can be used to open the image up with an image manipulation program. The most commonly used image manipualtion program on Linux is GIMP which can be installed from Software:
+
 ![img_229](./images/img_229.png)
+
+GIMP is however often considered too much for the simple modification of a screenshot. Unfortunately there is no good equivalent to modern paint. The closest is drawing. There is also kolourpaint which resembles the legacy paint from Windows XP and like the legacy paint does not support high DPI screens. Its user interface is also less smooth than the legacy paint application.
+
 ![img_230](./images/img_230.png)
+
 ![img_231](./images/img_231.png)
+
 ![img_232](./images/img_232.png)
+
+GNOME screen capture can also be used for a screen recording:
+
 ![img_233](./images/img_233.png)
+
+When recording a timer to the top right counts up:
+
 ![img_234](./images/img_234.png)
+
+This can be pressed to stop the recording:
+
 ![img_235](./images/img_235.png)
+
 ![img_236](./images/img_236.png)
+
 ![img_237](./images/img_237.png)
+
+The screen recording can be played in the video player:
+
 ![img_238](./images/img_238.png)
+
+If there are issues regarding multi-media codecs, go to Software search for Codec and make sure they are all installed, the reboot. If you still encoutner issues, install VLC player:
+
 ![img_239](./images/img_239.png)
+
+Unfortunately the screen recording does not capture the mouse and there is no option to enable this setting hopefully this will be addressed in the future.
+
+Libre Office is the preinstalled office suite and Drawing can also be installed from Software if desired. 
+
 ![img_240](./images/img_240.png)
+
+A popular Office Suite that can optionalyl be isntalled, with a higher degree of compatibility and a more similar user interface to Microsoft Office is OnlyOffice Desktop Editors. There is a Document, SpreadSheet and Presentation equivalent to Word, Excel and PowerPoint respectively. Unfortunately at current there is no analogous Visio program.
+
+Only Office Desktop Editors has been under rapid development and now supports an equation editor:
+
 ![img_241](./images/img_241.png)
+
 ![img_242](./images/img_242.png)
+
 ![img_243](./images/img_243.png)
+
 ![img_244](./images/img_244.png)
+
+Paste special options have also been added making it easier to transpose data which was previously moderately difficult:
+
 ![img_245](./images/img_245.png)
+
 ![img_246](./images/img_246.png)
+
 ![img_247](./images/img_247.png)
