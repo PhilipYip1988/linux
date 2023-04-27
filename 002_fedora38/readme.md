@@ -350,11 +350,11 @@ Select Begin installation:
 
 ![img_075](./images/img_075.png)
 
-The instalaltion will now proceed. When its done select Finish installation:
+The installation will now proceed. When its done select Finish installation:
 
 ![img_076](./images/img_076.png)
 
-Select the top right menu and select Power:
+Select the top right quick settings menu and select Power:
 
 ![img_077](./images/img_077.png)
 
@@ -541,7 +541,7 @@ By default auto-rotation isn't enabled when the keyboard is out and the converti
 
 ![img_126](./images/img_126.png)
 
-Notice the lack of the auto-rotate icon in the power menu:
+Notice the lack of the auto-rotate icon in the quick settings menu:
 
 ![img_127](./images/img_127.png)
 
@@ -566,3 +566,210 @@ Because the screen-rotation gets disabled, the system is in a bit of an unusable
 
 ![img_133](./images/img_133.png)
 
+## Software
+
+In Fedora, Software is used to install third party packages in the form of a Redhat Package Manager (RPM) or the more extensively used Flatpak package (when third-party repositories are enabled). A new application can be searched for:
+
+![img_134](./images/img_134.png)
+
+The Explore Tab can be used to search for a new RPM or FLatpak to install, when both a RPM and a Flatpak are available, the RPM will preferentially be installed because it has been tweaked by RedHat to work better with Fedora:
+
+![img_135](./images/img_135.png)
+
+The installed tab shows all the preinstalled applications:
+
+![img_136](./images/img_136.png)
+
+The Updates tab shows all the Operating System Updates, in addition to the Application Updates:
+
+![img_137](./images/img_137.png)
+
+Once Updates are downloaded you will be prompted to Restart & Install:
+
+![img_138](./images/img_138.png)
+
+![img_139](./images/img_139.png)
+
+The Updates Tab also has a Device Firmware section which uses the Linux Vendor Firmware Service for UEFI Updates and other Firmware Updates for Devices such as Docks. In this case the Device Firmware for the WD19TB Dock displays. Select Update:
+
+![img_140](./images/img_140.png)
+
+Then remove the Dock when prompted:
+
+![img_141](./images/img_141.png)
+
+After a few minutes reconnect. The Software is now up to date. To check the Firmware versions, the Terminal can be launched:
+
+![img_142](./images/img_142.png)
+
+And the following command can be input:
+
+```
+fwupdmgr get-devices
+```
+
+![img_143](./images/img_143.png)
+
+![img_144](./images/img_144.png)
+
+![img_145](./images/img_145.png)
+
+![img_146](./images/img_146.png)
+
+![img_147](./images/img_147.png)
+
+Fedora uses the Wayland display protocol and has Enable High DPI scaling enabled by default so plugging in the XPS 13 9365 which has a High DPI touchscreen to a dock with an external monitor of a regular DPI works seamlessly:
+
+![img_148](./images/img_148.png)
+
+Most devices have open-source drivers which are worked on by both the chip manufacturer and the kernel developers to give the most stable OOBE. 
+
+Some chip manufacturers did not release open-source drivers resulting in a basic driver essentially hacked together by the kernel developers for an OOBE and usually a separate closed-source driver released by the chip manufacturer. The closed-source driver usually increases functionality of the device but can lack performance and stability tweaks from the kernel developers which optimise stability of the driver with the Linux kernel. 
+
+The biggest culprit for this has historically been Nvidia however they have recently been releasing open-source drivers which should alleviate driver problems with their devices. 
+
+At current the new open-source driver developed by NVIDIA and Linux Kernel developers is under development and is therefore not incorporated into the Linux Kernel yet. A search for NVIDIA gives two drivers 470xx (the old closed source driver) and 530xx (the new open source driver):
+
+![img_149](./images/img_149.png)
+
+If your graphics card is listed as a [NVIDIA Supported Devices](https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus) the newer open-source driver should be installed otherwise the older closed-source driver should be installed for best performance.
+
+This system has Intel Integrated Graphics and therefore does not require installation of a NVIDIA graphics driver.
+
+![img_150](./images/img_150.png)
+
+## GNOME Settings, Tweaks and Extensions
+
+Fedora uses a vanilla GNOME Desktop environment as previously discussed. The GNOME Settings offer limited Appearance options:
+
+![img_151](./images/img_151.png)
+
+![img_152](./images/img_152.png)
+
+Two other Applications are typically installed to offer additional customisation options. To install these Applications open Software:
+
+![img_153](./images/img_153.png)
+
+Search for Extension Manager. Note there are two available, one with a green icon which allows limited installation of a handful of official extensions and a blue icon which allows installation of these and third-party extensions. Select the blue icon:
+
+![img_154](./images/img_154.png)
+
+Install Tweaks:
+
+![img_155](./images/img_155.png)
+
+The Tweaks icon is in the Utilities folder by default and can be dragged out to the main menu on the All Activities screen:
+
+![img_156](./images/img_156.png)
+
+![img_157](./images/img_157.png)
+
+![img_158](./images/img_158.png)
+
+![img_159](./images/img_159.png)
+
+By default windows have no minimise and maximise button in Fedora, instead a right click menu can be accessed by right clicking the top right section of the titlebar.
+
+![img_160](./images/img_160.png)
+
+These can be added in the Windows Titlebar section of GNOME Tweaks by turning on the Minimise and Maximise Titlebar Buttons:
+
+![img_161](./images/img_161.png)
+
+The Touchpad by default acts as a pressure sensor for 1, 2 and 3 finger presses. This can be changed in the Mouse Click EMulation Settings:
+
+![img_162](./images/img_162.png)
+
+Fingers is the default:
+
+![img_163](./images/img_163.png)
+
+This can be changed to Area for a more traditional behaviour:
+
+![img_164](./images/img_164.png)
+
+
+
+![img_165](./images/img_165.png)
+![img_166](./images/img_166.png)
+![img_167](./images/img_167.png)
+![img_168](./images/img_168.png)
+![img_169](./images/img_169.png)
+![img_170](./images/img_170.png)
+![img_171](./images/img_171.png)
+![img_172](./images/img_172.png)
+![img_173](./images/img_173.png)
+![img_174](./images/img_174.png)
+![img_175](./images/img_175.png)
+![img_176](./images/img_176.png)
+![img_177](./images/img_177.png)
+![img_178](./images/img_178.png)
+![img_179](./images/img_179.png)
+![img_180](./images/img_180.png)
+![img_181](./images/img_181.png)
+![img_182](./images/img_182.png)
+![img_183](./images/img_183.png)
+![img_184](./images/img_184.png)
+![img_185](./images/img_185.png)
+![img_186](./images/img_186.png)
+![img_187](./images/img_187.png)
+![img_188](./images/img_188.png)
+![img_189](./images/img_189.png)
+![img_190](./images/img_190.png)
+![img_191](./images/img_191.png)
+![img_192](./images/img_192.png)
+![img_193](./images/img_193.png)
+![img_194](./images/img_194.png)
+![img_195](./images/img_195.png)
+![img_196](./images/img_196.png)
+![img_197](./images/img_197.png)
+![img_198](./images/img_198.png)
+![img_199](./images/img_199.png)
+![img_200](./images/img_200.png)
+![img_201](./images/img_201.png)
+![img_202](./images/img_202.png)
+![img_203](./images/img_203.png)
+![img_204](./images/img_204.png)
+![img_205](./images/img_205.png)
+![img_206](./images/img_206.png)
+![img_207](./images/img_207.png)
+![img_208](./images/img_208.png)
+![img_209](./images/img_209.png)
+![img_210](./images/img_210.png)
+![img_211](./images/img_211.png)
+![img_212](./images/img_212.png)
+![img_213](./images/img_213.png)
+![img_214](./images/img_214.png)
+![img_215](./images/img_215.png)
+![img_216](./images/img_216.png)
+![img_217](./images/img_217.png)
+![img_218](./images/img_218.png)
+![img_219](./images/img_219.png)
+![img_220](./images/img_220.png)
+![img_221](./images/img_221.png)
+![img_222](./images/img_222.png)
+![img_223](./images/img_223.png)
+![img_224](./images/img_224.png)
+![img_225](./images/img_225.png)
+![img_226](./images/img_226.png)
+![img_227](./images/img_227.png)
+![img_228](./images/img_228.png)
+![img_229](./images/img_229.png)
+![img_230](./images/img_230.png)
+![img_231](./images/img_231.png)
+![img_232](./images/img_232.png)
+![img_233](./images/img_233.png)
+![img_234](./images/img_234.png)
+![img_235](./images/img_235.png)
+![img_236](./images/img_236.png)
+![img_237](./images/img_237.png)
+![img_238](./images/img_238.png)
+![img_239](./images/img_239.png)
+![img_240](./images/img_240.png)
+![img_241](./images/img_241.png)
+![img_242](./images/img_242.png)
+![img_243](./images/img_243.png)
+![img_244](./images/img_244.png)
+![img_245](./images/img_245.png)
+![img_246](./images/img_246.png)
+![img_247](./images/img_247.png)
