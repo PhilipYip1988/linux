@@ -394,7 +394,7 @@ When conencted a black tick should display alongside an icon indicating the sign
 
 ![img_085](./images/img_085.png)
 
-Pick your desired privacy settings. tThe location is needed to use maps and read regional news. Then select next:
+Pick your desired privacy settings. The location is needed to use maps and read regional news. Then select next:
 
 ![img_086](./images/img_086.png)
 
@@ -804,29 +804,31 @@ This can be Disabled in the Multitasking tab in Settings:
 
 ![img_198](./images/img_198.png)
 
-![img_199](./images/img_199.png)
-
 There are numerous problems with the Screen Keyboard. It doesn't auto-populate in many applications in response to pressing into a touch input field. Many applications are based on the open source browser Chromium but Chromium only supports the text input version 1 and not version 3 which is used by the GNOME keyboard, see [Issue 1039161: Ozone-wayland: support text_input_v3 protocol](https://bugs.chromium.org/p/chromium/issues/detail?id=1039161). GNOME Developers are waiting on Chromium developers to fix this before further improving the touch keyboard. In the meantime the screen keyboard is subpar and its limitations can be partially addressed using the improved OSK extension:
 
-![img_200](./images/img_200.png)
+![img_199](./images/img_199.png)
 
 Once installed, this extensions settings can be configured:
 
-![img_201](./images/img_201.png)
+![img_200](./images/img_200.png)
 
 It is recommended to enable Force touch-input and show statusbar icon:
 
-![img_202](./images/img_202.png)
+![img_201](./images/img_201.png)
 
 When pressing into a text input field in Chromium, the Screen Keyboard does not auto-populate:
 
-![img_203](./images/img_203.png)
+![img_202](./images/img_202.png)
 
 But can be manually invoked using the touchscreen keyboard button:
 
+![img_203](./images/img_203.png)
+
+This button should work even if the screen keyboard is disabled in the Accessibility menu however if it does not display, screen keyboard may need to be enabled in the accessibility menu.
+
 ![img_204](./images/img_204.png)
 
-This button should work even if the screen keyboard is disabled in the Access
+The Extension Show Deskt
 
 ![img_205](./images/img_205.png)
 ![img_206](./images/img_206.png)
